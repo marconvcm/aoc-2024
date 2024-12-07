@@ -32,9 +32,9 @@ const inputSample = `
 97,13,75,29,47`.trim();
 
 const part1Output = `143`;
-const part2Output = ``;
+const part2Output = `123`;
 
-describe("04", () => {
+describe("05", () => {
    it("should solve part1", () => {
       expect(part1(inputSample)).toBe(part1Output);
    });
@@ -60,7 +60,7 @@ describe("04", () => {
       const { rules, pages } = parseInput(inputSample);
 
       const reducedRules = reduce(rules);
-      console.log(reducedRules);
+      
       expect(isPristineOrder(reducedRules, pages[0])).toBe(true);
       expect(isPristineOrder(reducedRules, pages[1])).toBe(true);
       expect(isPristineOrder(reducedRules, pages[2])).toBe(true);

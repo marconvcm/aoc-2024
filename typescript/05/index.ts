@@ -68,6 +68,6 @@ export function part2(input: string): string {
          return findMiddlePoint(adjustedOrder);
       }
       return 0;
-   }); 
+   });
    return `${sum(middlePoints)}`;
 }
