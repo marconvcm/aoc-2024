@@ -5,6 +5,7 @@ import { part1 as d4p1, part2 as d4p2 } from './04';
 import { part1 as d5p1, part2 as d5p2 } from './05';
 import { part1 as d6p1, part2 as d6p2 } from './06';
 import { part1 as d7p1, part2 as d7p2 } from './07';
+import { part1 as d8p1, part2 as d8p2 } from './08';
 import { readInput } from './utils';
 
 console.log('======= Day 1 =======');
@@ -27,10 +28,16 @@ console.log('======= Day 5 =======');
 console.log('Part 1:', d5p1(readInput('05')));
 console.log('Part 2:', d5p2(readInput('05')));
 
-console.log('======= Day 6 =======');
-console.log('Part 1:', d6p1(readInput('06')));
-//console.log('Part 2:', d6p2(readInput('06')));
+// Long time to run
+// console.log('======= Day 6 =======');
+// console.log('Part 1:', d6p1(readInput('06')));
+// console.log('Part 2:', d6p2(readInput('06')));
 
-console.log('======= Day 7 =======');
-console.log('Part 1:', d7p1(readInput('07')));
-console.log('Part 2:', d7p2(readInput('07')));
+// Long time to run
+// console.log('======= Day 7 =======');
+// console.log('Part 1:', d7p1(readInput('07')));
+// console.log('Part 2:', d7p2(readInput('07')));
+
+console.log('======= Day 8 =======');
+console.log('Part 1:', d8p1(readInput('08')));
+console.log('Part 2:', d8p2(readInput('08')));
