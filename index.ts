@@ -7,6 +7,7 @@ import { part1 as d6p1, part2 as d6p2 } from './06';
 import { part1 as d7p1, part2 as d7p2 } from './07';
 import { part1 as d8p1, part2 as d8p2 } from './08';
 import { part1 as d9p1, part2 as d9p2 } from './09';
+import { part1 as d10p1, part2 as d10p2 } from './10';
 import { readInput } from './utils';
 
 console.log('======= Day 1 =======');
@@ -46,3 +47,7 @@ console.log('Part 2:', d8p2(readInput('08')));
 console.log('======= Day 9 =======');
 console.log('Part 1:', d9p1(readInput('09')));
 console.log('Part 2:', d9p2(readInput('09')));
+
+console.log('======= Day 10 =======');
+console.log('Part 1:', d10p1(readInput('10')));
+console.log('Part 2:', d10p2(readInput('10')));

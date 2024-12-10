@@ -1,9 +1,18 @@
 import { describe, it, expect } from "bun:test";
-import { part1, part2 } from ".";
+import { part1, part2, findAllReachableNines } from ".";
 
-const inputSample = ``.trim();
+const inputSample = `
+89010123
+78121874
+87430965
+96549874
+45678903
+32019012
+01329801
+10456732
+`.trim();
 
-const part1Output = ``;
+const part1Output = `36`;
 const part2Output = ``;
 
 describe("04", () => {
